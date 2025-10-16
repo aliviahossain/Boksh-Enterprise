@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOKSH ENTERPRISE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-section {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#home" class="flex items-center space-x-2">
+                    <div class="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-2xl">B</span>
+                    </div>
+                    <span class="text-2xl font-bold text-gray-900">BOKSH</span>
+                </a>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-indigo-600 transition duration-300">Services</a>
+                    <a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300">Projects</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300">Contact</a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-800 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4">
+                <a href="#about" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-200 rounded">About</a>
+                <a href="#services" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-200 rounded">Services</a>
+                <a href="#projects" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-200 rounded">Projects</a>
+                <a href="#contact" class="block py-2 px-4 text-sm text-gray-600 hover:bg-gray-200 rounded">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section h-screen flex items-center justify-center">
+        <div class="text-center">
+            <div class="inline-block border-4 border-blue-800 p-8 rounded-xl shadow-lg bg-white">
+                <h1 class="text-5xl md:text-6xl font-bold text-blue-800">BOKSH ENTERPRISE</h1>
+            </div>
+            <div class="mt-8">
+                <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto px-4">Powering a sustainable future with innovative solar, water, and telecom solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900">About Us</h2>
+                <p class="text-lg text-gray-600 mt-2">Your trusted partner in sustainable energy and infrastructure.</p>
+            </div>
+            <div class="flex flex-col md:flex-row items-start gap-12 bg-white p-8 rounded-lg shadow-lg">
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold mb-4 border-b pb-2">Company Details</h3>
+                    <div class="space-y-3 text-gray-700">
+                        <p><strong>NAME:</strong> BOKSH ENTERPRISE</p>
+                        <p><strong>PROPRIETOR:</strong> Zakir Hossain</p>
+                        <p><strong>REGISTERED ADDRESS:</strong> VIP Enclave, Phase II, Block – C, 005, VIP Road, Kolkata – 700059</p>
+                        <p><strong>CONTACT:</strong> 9230065646 / 8617746278</p>
+                        <p><strong>EMAIL:</strong> bokshenterprise21@gmail.com</p>
+                        <p><strong>GSTN:</strong> 19ABPPH8167B1ZE</p>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold mb-4 border-b pb-2">Our Expertise</h3>
+                    <p class="mb-4 text-gray-700">
+                        BOKSH ENTERPRISE specializes in the installation and maintenance of renewable energy solutions and critical infrastructure. We are a leading provider for government and private sector projects, focusing on Solar Power Plants, Water Purification Systems, and Telecommunication infrastructure.
+                    </p>
+                    <p class="text-gray-700">
+                        Our commitment is to deliver high-quality, reliable, and sustainable projects. We handle everything from MMS installation and foundation to cabling, commissioning, and long-term maintenance, ensuring excellence at every stage.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 bg-white rounded-lg shadow-lg">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900">Our Services</h2>
+                <p class="text-lg text-gray-600 mt-2">Comprehensive solutions for a sustainable future.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <!-- Service 1 -->
+                <div class="p-8 border border-gray-200 rounded-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center justify-center h-16 w-16 bg-indigo-100 text-indigo-600 rounded-full mx-auto mb-4">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Solar Power Plants</h3>
+                    <p class="text-gray-700">Installation, commissioning, and maintenance of grid-connected and standalone solar power plants for government and private entities.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="p-8 border border-gray-200 rounded-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center justify-center h-16 w-16 bg-indigo-100 text-indigo-600 rounded-full mx-auto mb-4">
+                       <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Water Purification</h3>
+                    <p class="text-gray-700">Installation and maintenance of community-based Water Purification and R.O. Plants, including arsenic-free treatment systems.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="p-8 border border-gray-200 rounded-lg hover:shadow-xl transition duration-300">
+                    <div class="flex items-center justify-center h-16 w-16 bg-indigo-100 text-indigo-600 rounded-full mx-auto mb-4">
+                       <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2 9.5c0-.982.784-1.773 1.75-1.936C5.52 7.22 6.72 6.5 8 6.5s2.48.72 4.25 1.064C13.216 7.727 14 8.518 14 9.5V11c0 .736-.32 1.4-.828 1.838C11.453 14.12 9.83 15.5 8 15.5s-3.453-1.38-4.922-2.662C2.32 12.4 2 11.736 2 11V9.5zM14 14c2.094 0 3.845.673 5.155 1.537C20.32 16.031 21 16.93 21 18v.5c0 .982-.784 1.773-1.75 1.936C17.52 20.78 16.32 21.5 15 21.5s-2.48-.72-4.25-1.064C9.784 20.273 9 19.482 9 18.5V18c0-2 2-4 4-4h1z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Telecom & Power Storage</h3>
+                    <p class="text-gray-700">Commissioning for telecom power systems, battery bank installation, and power storage solutions for universities and corporations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900">Our Projects</h2>
+                <p class="text-lg text-gray-600 mt-2">A showcase of our diverse portfolio.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                    <img src="https://placehold.co/600x400/e2e8f0/333333?text=Govt.+School+Solar" alt="Project One" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Solar for Govt. Schools (WBREDA)</h3>
+                        <p class="text-gray-700 mb-4">Installed and commissioned 10 & 20 KWP solar power plants for 990 government schools and colleges across West Bengal.</p>
+                        <a href="#contact" class="text-indigo-600 hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                    <img src="https://placehold.co/600x400/e2e8f0/333333?text=DDUGJY+Scheme" alt="Project Two" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">DDUGJY Scheme Projects</h3>
+                        <p class="text-gray-700 mb-4">Executed comprehensive solar power plant projects, including BB room construction and full commissioning under the Deen Dayal Upadhyay Gram Jyoti Yojana.</p>
+                        <a href="#contact" class="text-indigo-600 hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                    <img src="https://placehold.co/600x400/e2e8f0/333333?text=Water+Purification" alt="Project Three" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Community Water Plants</h3>
+                        <p class="text-gray-700 mb-4">Delivered standalone government projects for arsenic-free water treatment, ensuring safe drinking water for communities.</p>
+                        <a href="#contact" class="text-indigo-600 hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                    <img src="https://placehold.co/600x400/e2e8f0/333333?text=Webel+Bhavan+Solar" alt="Project Four" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Solar Plant at Webel Bhavan</h3>
+                        <p class="text-gray-700 mb-4">Successfully handled the complete installation and ongoing maintenance for the solar power plant at the prestigious Webel Bhavan.</p>
+                        <a href="#contact" class="text-indigo-600 hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                    <img src="https://placehold.co/600x400/e2e8f0/333333?text=Tezpur+University" alt="Project Five" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Power Storage at Tezpur University</h3>
+                        <p class="text-gray-700 mb-4">Installed, tested, and commissioned a large-scale battery bank and power storage system for Tezpur University.</p>
+                        <a href="#contact" class="text-indigo-600 hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden group">
+                    <img src="https://placehold.co/600x400/e2e8f0/333333?text=TATA+Telecom" alt="Project Six" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">TATA Communications Telecom Projects</h3>
+                        <p class="text-gray-700 mb-4">Managed new build and upgradation projects, including equipment erection and commissioning for MAN & NLD power telecommunications.</p>
+                        <a href="#contact" class="text-indigo-600 hover:underline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-white rounded-lg shadow-lg">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900">Get In Touch</h2>
+                <p class="text-lg text-gray-600 mt-2">We'd love to hear from you. Let's build something great together.</p>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 text-center">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Address</h3>
+                        <p class="text-gray-600">VIP Enclave, Phase II, Block – C, 005, VIP Road, Kolkata – 700059</p>
+                    </div>
+                     <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Phone</h3>
+                        <p class="text-gray-600">
+                           <a href="tel:+919230065646" class="hover:text-indigo-600"> +91 9230065646</a> / 
+                           <a href="tel:+918617746278" class="hover:text-indigo-600"> +91 8617746278</a>
+                        </p>
+                    </div>
+                     <div class="p-4">
+                        <h3 class="font-semibold text-lg mb-2">Email</h3>
+                        <p class="text-gray-600"><a href="mailto:bokshenterprise21@gmail.com" class="hover:text-indigo-600">bokshenterprise21@gmail.com</a></p>
+                    </div>
+                 </div>
+                 <form action="#" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" required>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" required></textarea>
+                    </div>
+                    <div class="md:col-span-2 text-right">
+                        <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center text-gray-400">
+            <p class="font-bold text-lg text-white mb-2">BOKSH ENTERPRISE</p>
+            <p>VIP Enclave, Phase II, Block – C, 005, VIP Road, Kolkata – 700059</p>
+            <p>Email: bokshenterprise21@gmail.com | Contact: +91 8617746278 / 9230065646</p>
+            <p class="mt-4 pt-4 border-t border-gray-700">&copy; 2025 BOKSH ENTERPRISE. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let i = 0; i < mobileMenuLinks.length; i++) {
+            mobileMenuLinks[i].addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
+
+
+
+
